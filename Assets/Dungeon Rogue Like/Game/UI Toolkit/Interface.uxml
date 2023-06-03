@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Dungeon%20Rogue%20Like/Game/UI%20Toolkit/Style%20Sheets/Test.uss?fileID=7433441132597879392&amp;guid=5e711b9090c2e1642b540deb7a9d191c&amp;type=3#Test" />
+    <ui:VisualElement style="flex-grow: 1;">
+        <ui:VisualElement name="BottomContainer" style="transform-origin: bottom; top: 100%;">
+            <ui:ProgressBar title="Health" style="-unity-text-align: upper-center; bottom: 200%; left: 25px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

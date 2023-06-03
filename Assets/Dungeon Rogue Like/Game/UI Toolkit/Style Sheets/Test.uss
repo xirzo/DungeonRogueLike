@@ -1,0 +1,12 @@
+.button {
+    width: 250px;
+    height: 75px;
+    -unity-font-style: bold;
+    font-size: 25px;
+    -unity-text-align: middle-center;
+    background-color: rgba(207, 202, 202, 255);
+    border-left-width: 5px;
+    border-right-width: 5px;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+}

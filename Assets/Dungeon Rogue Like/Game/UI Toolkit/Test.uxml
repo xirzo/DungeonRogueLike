@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Dungeon%20Rogue%20Like/Game/UI%20Toolkit/Style%20Sheets/Test.uss?fileID=7433441132597879392&amp;guid=5e711b9090c2e1642b540deb7a9d191c&amp;type=3#Test" />
+    <ui:VisualElement style="justify-content: flex-end;">
+        <ui:VisualElement name="Container" style="align-items: center; flex-direction: row; justify-content: center; height: 1243px; border-left-color: rgba(0, 0, 0, 0.15); border-right-color: rgba(0, 0, 0, 0.15); border-top-color: rgba(0, 0, 0, 0.15); border-bottom-color: rgba(0, 0, 0, 0.15); border-left-width: 6px; border-right-width: 6px; border-top-width: 6px; border-bottom-width: 6px; background-color: rgba(0, 0, 0, 0.15); flex-grow: 0; flex-shrink: 1; flex-basis: 15%; flex-wrap: nowrap; margin-left: 10%; margin-right: 10%; margin-top: 2%; margin-bottom: 2%; padding-left: 5%; padding-right: 5%;">
+            <ui:Button text="Start" display-tooltip-when-elided="true" name="ButtonStart" class="button" style="height: 91px; width: 140px;" />
+            <ui:Button text="Pause" display-tooltip-when-elided="true" name="ButtonPause" class="button" style="height: 91px; width: 140px;" />
+            <ui:Button text="Stop" display-tooltip-when-elided="true" name="ButtonStop" class="button" style="height: 91px; width: 140px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
