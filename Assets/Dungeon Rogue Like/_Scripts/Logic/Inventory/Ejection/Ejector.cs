@@ -72,7 +72,7 @@ namespace Dungeon.Logic.Inventory.Ejection
             item.transform.rotation = _ejectionPoint.rotation;
             item.transform.transform.localScale = endScale;
 
-            item.Rigidbody.velocity = Vector3.zero;
+            item.Rigidbody.linearVelocity = Vector3.zero;
             item.Rigidbody.isKinematic = false;
 
             foreach (var collider in item.Colliders)

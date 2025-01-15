@@ -39,7 +39,7 @@ namespace Dungeon.Logic.Movement
         {
             _currentInput = Vector2.SmoothDamp(_currentInput, _desiredInput, ref _smoothVelocity, _movementSmooth * Time.deltaTime);
             _velocity = _currentInput * _movementSpeed * _movementSpeedMultiplier * Time.deltaTime;
-            _rigidbody.velocity = _velocity;
+            _rigidbody.linearVelocity = _velocity;
         }
 
         private void Update()

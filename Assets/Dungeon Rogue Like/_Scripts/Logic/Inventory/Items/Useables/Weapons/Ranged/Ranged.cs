@@ -81,7 +81,7 @@ namespace Dungeon.Logic.Inventory.Items.Useable.Weapons.Ranged
                 yield return null;
             }
 
-            projectile.Rigidbody.velocity = Vector2.zero;
+            projectile.Rigidbody.linearVelocity = Vector2.zero;
             projectile.Rigidbody.angularVelocity = 0;
             projectile.OnObstacleHit -= () => _pool.Pool(projectile);
 
